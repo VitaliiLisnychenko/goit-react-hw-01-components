@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 45px;
+  padding: 5px 45px;
+
+  background-color: antiquewhite;
+  border: 1px solid rgb(116, 168, 221);
+  border-radius: 4px;
+  box-shadow: 1px 1px 7px 3px rgb(116, 168, 221);
+
+  text-align: center;
+}
+.status {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(246, 3, 3);
+  border-radius: 50%;
+}
+.is-online {
+  background-color: rgb(7, 241, 7);
+}
+.avatar {
+  padding: 3px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  width: 70px;
+  display: block;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.name {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 8.5px;
+}

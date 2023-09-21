@@ -1,0 +1,35 @@
+.transactions {
+  width: 500px;
+  margin: 50px auto;
+
+  border-spacing: 0;
+
+  background-color: antiquewhite;
+  border: 1px solid rgb(116, 168, 221);
+  border-radius: 4px;
+  box-shadow: 1px 1px 7px 3px rgb(116, 168, 221);
+
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+}
+.title {
+  color: antiquewhite;
+  background-color: blueviolet;
+}
+.row {
+  color: #524063;
+}
+.row:nth-child(2n) {
+  background-color: rgb(245, 210, 166);
+}
+table th {
+  height: 50px;
+}
+td {
+  border-top: 1px solid rgba(41, 41, 41, 0.5);
+}
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid rgba(41, 41, 41, 0.5);
+}
